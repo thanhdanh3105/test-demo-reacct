@@ -5,15 +5,10 @@ import { increaseCounter, decreaseCounter } from "./redux/action/counterAction";
 import MyComponent from "./components/MyComponent";
 import React from "react";
 class App extends React.Component {
-  state = {
-    name: "Thành Danh",
-    address: "Hoi Dan IT",
-    age: 23,
-  };
   render() {
     return (
       <div>
-        My name is {this.state.name} and from {this.state.address}
+        Hello Word My <MyComponent></MyComponent>
       </div>
     );
   }
